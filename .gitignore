@@ -1,0 +1,186 @@
+# =====================================
+# SISTEMA OPERACIONAL
+# =====================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+# Linux
+*~
+.directory
+.fuse_hidden*
+
+# =====================================
+# EDITORES / IDEs
+# =====================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# =====================================
+# VARIÁVEIS DE AMBIENTE
+# =====================================
+.env
+.env.*
+!.env.example
+*.local
+
+# =====================================
+# LOGS
+# =====================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================================
+# FRONTEND - NEXT.JS / NODE
+# =====================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/coverage/
+frontend/.eslintcache
+frontend/.vercel/
+# Pacotes (qualquer nível)
+**/node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.pnp.*
+
+# =====================================
+# BACKEND - .NET / ASP.NET CORE
+# =====================================
+backend/**/bin/
+backend/**/obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+# Arquivos de publicação
+backend/publish/
+# Arquivos temporários .NET
+*.user
+*.suo
+*.rsuser
+*.ntvs*
+
+# =====================================
+# BANCO DE DADOS
+# =====================================
+# SQLite caso seja usado localmente
+*.db
+*.sqlite
+*.sqlite3
+# Dumps
+*.sql
+
+# =====================================
+# DOCKER
+# =====================================
+# Volumes locais
+docker-volumes/
+volumes/
+*.pid
+docker-compose.override.yml
+
+# =====================================
+# TESTES / COBERTURA
+# =====================================
+coverage/
+TestResults/
+*.trx
+
+# =====================================
+# BUILD / TEMPORÁRIOS
+# =====================================
+dist/
+build/
+tmp/
+temp/
+*.tmp
+.cache/
+
+# =====================================
+# UPLOADS / ARQUIVOS GERADOS
+# =====================================
+uploads/
+storage/
+cache/
+
+# =====================================
+# CERTIFICADOS / SEGURANÇA
+# =====================================
+*.pem
+*.key
+*.crt
+*.cert
+certificates/
+
+# =====================================
+# CLOUD / DEPLOY
+# =====================================
+.terraform/
+*.tfstate
+*.tfstate.*
+.serverless/
+.vercel/
+
+# =====================================
+# DOCUMENTAÇÃO GERADA
+# =====================================
+docs/generated/
+
+# =====================================
+# BACKUP / PATCH
+# =====================================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# =====================================
+# CONFIGURAÇÕES LOCAIS
+# =====================================
+*.local.json
+appsettings.Development.json
+# Mantém exemplo do ASP.NET
+!appsettings.Example.json
+
+# =====================================
+# GENERATED FILES
+# =====================================
+*.generated.*
+*.designer.cs
