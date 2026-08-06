@@ -1,0 +1,6 @@
+@OpenView.Api_HostAddress = http://localhost:5156
+
+GET {{OpenView.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
