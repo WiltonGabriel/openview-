@@ -109,5 +109,3 @@ O OpenView é desenvolvido como uma **plataforma tecnológica** de gerenciamento
 ## Licença
 
 © 2026 OpenView. Este projeto é distribuído sob a licença MIT — veja o arquivo `LICENSE` para mais detalhes.
-
-> Nota: adicionei a licença MIT como padrão por ser a mais comum para projetos como este, mas você pode trocar por outra (ex: Apache 2.0, GPL) editando o arquivo `LICENSE`.
